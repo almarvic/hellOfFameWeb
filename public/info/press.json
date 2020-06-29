@@ -1,0 +1,54 @@
+{
+    "title": "Press Kit",
+    "completeZip": {
+        "file": "ertyui",
+        "text": "Descarga este zip con todo"
+    },
+    "sections": [{
+            "title": "Esto es un título de secccion",
+            "zip": {
+                "file": "ertyui",
+                "text": "Descarga este zip"
+            },
+            "files": [{
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                },
+                {
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                },
+                {
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                }
+            ]
+        },
+        {
+            "title": "Otro título de sección",
+            "zip": {
+                "file": "ertyui",
+                "text": "Descarga este zip"
+            },
+            "files": [{
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                },
+                {
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                },
+                {
+                    "img": "wertyu",
+                    "openImg": "",
+                    "alt": ""
+                }
+            ]
+        }
+    ]
+}

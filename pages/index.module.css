@@ -1,0 +1,26 @@
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  width: 40rem;
+}
+
+.macarena {
+  width: 8rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 22rem;
+  }
+  .macarena {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  max-width: 900px;
+
+  z-index: 2;
+}
+
+.container h2 {
+  color: white;
+  margin: 10px 0;
+}
+
+.itemList {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: 0 25px 25px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item img {
+  border-radius: 50%;
+  width: 152px;
+  margin-right: 25px;
+  margin-left: 25px;
+
+  border: solid 8px #985e1a;
+}
+
+.item p {
+  width: 275px;
+}
+
+@media (max-width: 768px) {
+  .conatiner {
+    display: flex;
+    height: 100vh;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,83 @@
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.logo {
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  z-index: 2;
+  color: white;
+  flex-flow: column;
+}
+
+.container h3 {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 1.17em;
+}
+
+.imgList {
+  width: 100%;
+  list-style: none;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgList li {
+  width: 32%;
+  height: 170px;
+  margin: 6px;
+  position: relative;
+  outline: 0.6rem solid transparent;
+  transition-property: outline;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+
+.imgList li:hover {
+  outline: 0.6rem solid #985e1a;
+}
+
+.imgList li a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0.2rem solid #619fe4;
+  outline: 0;
+}
+
+.imgList li a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: 0;
+}
+
+.logo {
+  width: 40rem;
+}
+
+.macarena {
+  width: 5rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 22rem;
+  }
+  .macarena {
+    width: 10rem;
+  }
+}
